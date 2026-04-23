@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE
+.idea/
+
+# OS
+.DS_Store
+~$*
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.nav
+*.snm
+*.toc
+*.synctex.gz
+
+# Large / generated files
+model.pkl
+*.keras.bak
+db.sqlite3
+input/
+
+# Report, slides, figures (submitted separately)
+report.*
+slides.*
+figure1.*
+gradcam_examples.png
+skin-cancer-malignant-vs-benign.ipynb
+
+# Drafts / helper scripts
+report_draft.md
+report_outline.md
+figure1_spec.md
+slides_outline.md
+generate_figure1.py
+generate_gradcam_figure.py
+generate_slides.py
+make_slides.py
+train_cnn.py
